@@ -34,7 +34,6 @@ public class ObraSocial {
         this.descripcion = descripcion;
     }
     public Object[] toObject() {
-
         Object[] info = new Object[]{getId(),getDescripcion()};
         return info;
     }
